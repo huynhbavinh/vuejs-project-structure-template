@@ -1,20 +1,27 @@
 <template>
     <div>
       <h1>
-         hello : {{this.api}}
+        child spam
       </h1>
+
     </div>
 </template>
 
 <script>
-import APIsRoutes from '../APIsRoutes'
   export default{
-    data(){
-      return{
-
+    data() {
+      return {
+        
       }
     },
     
+    methods: {
+     change(){
+       this.select = !this.select;
+
+     }
+    },
+
   }
 </script>
 
